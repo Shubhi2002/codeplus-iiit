@@ -1,10 +1,16 @@
 .topbar{
     height:70px;
     display: grid;
-   grid-template-columns: 15fr 0.5fr 0.5fr;
+   grid-template-columns: 1fr 14fr 0.5fr 0.5fr;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 13px;
     background-color: #D8E4E8;
     padding: 0 20px 0 20px;
     color: #052E3B;
+}
+
+.icon{
+    font-size: 20px;
+    color: #052E3B;
+    padding-top: 65%;
 }

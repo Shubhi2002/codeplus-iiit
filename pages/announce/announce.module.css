@@ -2,17 +2,19 @@
     background-color: #D8E4E8;
     width: 85%;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 10px;
     padding:5px 25px 5px 25px;
     border-radius: 10px;
 }
 .postedBy{
     display: grid;
-    grid-template-columns: 7fr 1fr;
+    grid-template-columns: 15fr 1fr;
     font-size: 10px;
-
 }
-
+.icon{
+    font-size: 10px;
+    color: #052E3B;
+}
 .time{
     margin-left: 100px;
 }
