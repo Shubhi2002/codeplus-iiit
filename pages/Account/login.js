@@ -7,16 +7,17 @@ const Login = () => {
   const [formvalues, setformvalues] = useState(initialvalues);
   const [credentials, setcredentials] = useState(true);
   const router=useRouter();
-  const handleChange = (e) => {
+  const handleSignup=()=> {
+    router.push('/Account/signup')
+}
+const handleChange = (e) => {
     setcredentials(true);
     const { name, value, checked } = e.target;
     if (e.target.type === "text")
       setformvalues({ ...formvalues, [name]: value });
     else setformvalues({ ...formvalues, [name]: checked });
   };
-  const handleSignup=()=> {
-    router.push('/Account/signup')
-}
+  
   
   const handleSubmit = (e) => {
     e.preventDefault();
