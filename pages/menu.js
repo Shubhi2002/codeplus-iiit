@@ -14,22 +14,22 @@ export default function Menubar() {
           </Link>
         </button>
         <button className={styles.menubutton}>
-          <Link href="./topbar/topbar">
+          <Link href="./Questions">
             <div className={styles.menucontent}><span style={{marginRight:"20px"}}><FontAwesomeIcon icon={faClipboardCheck} className={styles.icon} /></span>Todo-List</div>
           </Link>
         </button>
         <button className={styles.menubutton}>
-          <Link href="./">
+          <Link href="./Discussions">
             <div className={styles.menucontent}><span style={{marginRight:"20px"}}><FontAwesomeIcon icon={faMessage} className={styles.icon} /></span>Discussions</div>
           </Link>
         </button>
         <button className={styles.menubutton}>
-          <Link href="./topbar/topbar">
+          <Link href="./WomenCommunity/womenDes">
             <div className={styles.menucontent}><span style={{marginRight:"20px"}}><FontAwesomeIcon icon={faVenus} className={styles.icon} /></span>Girls Community</div>
           </Link>
         </button>
         <button className={styles.menubutton}>
-          <Link href="./topbar/topbar">
+          <Link href="./Leaderboard">
             <div className={styles.menucontent}><span style={{marginRight:"20px"}}><FontAwesomeIcon icon={faSquarePollVertical} className={styles.icon} /></span>Leaderboard</div>
           </Link>
         </button>

@@ -1,6 +1,6 @@
 import styles from "./contestReminder.module.css";
 import Image from "next/image";
-import mypic from "../assets/codeforceslog.jpg";
+import mypic from "./assets/codeforceslog.jpg";
 export default function ContestReminder() {
   return (
     <div className={styles.contestbox}>

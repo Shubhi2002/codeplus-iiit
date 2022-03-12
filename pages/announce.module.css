@@ -6,6 +6,15 @@
     padding:5px 25px 5px 25px;
     border-radius: 10px;
 }
+.reply{
+    background-color: #06576C;
+    width: 75%;
+    margin: auto;
+    margin-top: 5px;
+    padding:5px 25px 5px 25px;
+    border-radius: 10px;
+    color: white;
+}
 .postedBy{
     display: grid;
     grid-template-columns: 15fr 1fr;

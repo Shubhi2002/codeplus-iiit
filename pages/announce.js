@@ -1,6 +1,7 @@
 import styles from "./announce.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faComment, faUser } from "@fortawesome/free-solid-svg-icons";
+import Post from "./Post";
 export default function Announce() {
   return (
     <div>
@@ -64,6 +65,7 @@ export default function Announce() {
           />
         </div>
       </div>
+      <Post/>
     </div>
   );
 }
